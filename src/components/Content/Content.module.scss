@@ -1,0 +1,30 @@
+@use "../../scss" as *;
+
+.paragraph {
+  max-width: 400px;
+
+  .text {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: $black;
+    margin-bottom: 26px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 15px;
+  }
+}
+
+.decoration {
+  position: relative;
+  max-width: 380px;
+  margin: 105px 0;
+  left: -58px;
+
+  .print {
+    position: absolute;
+    top: 150px;
+    left: 168px;
+  }
+}

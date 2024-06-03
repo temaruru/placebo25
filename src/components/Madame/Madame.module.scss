@@ -1,0 +1,57 @@
+@use "../../scss" as *;
+
+.decoration {
+  position: relative;
+  max-width: 610px;
+  left: 22px;
+
+  .print {
+    position: absolute;
+    bottom: -58px;
+    left: 76px;
+  }
+
+  .image {
+    cursor: grab;
+  }
+
+  .brush {
+    position: absolute;
+    top: 219px;
+    left: 195px;
+  }
+}
+
+.description {
+  font-size: 21px;
+  line-height: 26px;
+  color: $primary;
+  font-weight: bold;
+  position: absolute;
+  right: -49px;
+  bottom: 3px;
+  transform: rotate(-15deg);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'GENTO DREAM', sans-serif;
+  font-size: 100px;
+  line-height: 104px;
+  text-align: center;
+  color: $lightDark;
+  max-width: 869px;
+  margin: 0;
+  overflow: hidden;
+  gap: 27px;
+  font-weight: 100;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    line-height: 32px;
+    max-width: 50%;
+    gap: 10px;
+  }
+}

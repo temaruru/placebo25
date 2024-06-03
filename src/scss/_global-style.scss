@@ -1,0 +1,33 @@
+@use "./utils/variables" as *;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+@font-face {
+  font-family: 'GENTO DREAM';
+  src: url('../assets/fonts/GENTODREAM.woff2') format('woff2'),
+  url('../assets/fonts/GENTODREAM.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('../assets/fonts/PTMono-Bold.woff2') format('woff2'),
+  url('../assets/fonts/PTMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background-color: $bodyBg;
+  font-family: "PT Mono", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

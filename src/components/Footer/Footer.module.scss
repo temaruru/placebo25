@@ -1,0 +1,21 @@
+@use "../../scss" as *;
+
+.footer {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: $primaryText;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link {
+  font-size: 14px;
+  line-height: 20px;
+  color: $primaryText;
+  text-decoration: none;
+}
